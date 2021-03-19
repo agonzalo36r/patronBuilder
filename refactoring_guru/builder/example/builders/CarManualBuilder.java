@@ -56,3 +56,4 @@ public class CarManualBuilder implements Builder{
     public Manual getResult() {
         return new Manual(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
+}
