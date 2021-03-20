@@ -37,6 +37,6 @@ public class Director {
         builder.setSeats(4);
         builder.setEngine(new Engine(2.5, 0));
         builder.setTransmission(Transmission.MANUAL);
-        builder.setGPSNavigator(new GPSNavigator());
+        //builder.setGPSNavigator(new GPSNavigator());
     }
 }
